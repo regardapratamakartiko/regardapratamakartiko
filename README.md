@@ -96,12 +96,9 @@
 </p>
 
 <!-- ANIMATED CONTRIBUTION SNAKE (jaring bergerak setiap hari) -->
-<!-- Aktifkan lewat GitHub Action di .github/workflows/snake.yml, lalu uncomment baris di bawah -->
-<!--
 <p align="center">
   <img src="https://raw.githubusercontent.com/regardapratamakartiko/regardapratamakartiko/output/spiderweb-snake.svg" width="97%" />
 </p>
--->
 
 <img src="assets/spiderweb-divider.svg" width="100%"/>
 
