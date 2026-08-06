@@ -1,0 +1,30 @@
+name: Generate Spiderweb Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # setiap tengah malam
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/spiderweb-snake.svg?color_snake=%23E23636&color_dots=0,#161B22,50,#8B0000,100,#E23636
+
+      - name: Push output to "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
