@@ -108,9 +108,7 @@
 <summary><b>Click to reveal the web 🕷️</b></summary>
 <br/>
 
-> Taruh 2–3 proyek terbaikmu di sini, contoh format:
->
-> **[Nama Proyek](https://github.com/regardapratamakartiko/nama-repo)** — deskripsi singkat 1 kalimat tentang proyeknya, dibangun pakai apa, dan link demo kalau ada.
+> - 🛡️ **[ShieldNews_AI](https://github.com/regardapratamakartiko/ShieldNews_AI)** — Aplikasi pemilah berita/hoaks berbasis web yang dibangun menggunakan Python, Flask, dan Machine Learning. | 🚀 **[Live Demo](https://regardapk.pythonanywhere.com/)**
 
 </details>
 
